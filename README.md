@@ -12,6 +12,9 @@ Based on an [answer](http://stackoverflow.com/a/1271123/644504) to [this questio
 * [BCMath](http://php.net/manual/en/book.bc.php) (preferred) or [Math_BigInteger](http://pear.php.net/reference/Math_BigInteger-1.0.0RC2/Math_BigInteger/Math_BigInteger.html) (untested)
 * PHP 5.3+
 
+#### Adapters
+
+Not necessary at all, but there's an adapter for FuelPHP 1.x to be used as package.
 
 #### Usage
 

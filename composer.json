@@ -4,8 +4,8 @@
     "description": "A PHP implementation of decimal IPs. Converts IPs from presentation to decimal and viceversa. Very useful to store IPs in database as numbers instead of string, in example in a decimal(39,0) column.",
     "keywords": ["IP", "decimal", "presentation", "conversion", "ipv4", "ipv6"],
     "homepage": "http://www.foolz.us",
-    "license": "Apache-2.0",
-    "authors": [{"name": "foolz", "email": "support@foolz.us"}],
+    "license": "CC-BY-SA-3.0",
+    "authors": [{"name": "Sander Marechal", "homepage": "http://stackoverflow.com/users/103202/sander-marechal"},{"name": "foolz", "email": "support@foolz.us"}],
     "support": {
         "email": "support@foolz.us", 
         "irc": "irc://irc.irchighway.net/fooldriver"

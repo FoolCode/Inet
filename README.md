@@ -4,8 +4,9 @@ This [Composer](http://getcomposer.org) package contains a class two static func
 
 It's especially useful to store the IP in databases without having to resort to strings that may be much slower to match against.
 
-Based on an [answer](http://stackoverflow.com/a/1271123/644504) to [this question on StackOverflow](http://stackoverflow.com/questions/1120371/how-to-convert-ipv6-from-binary-for-storage-in-mysql). Wish this solution were more popular, let's see if a package will help.
+Based on an [answer](http://stackoverflow.com/a/1271123/644504) to [this question on StackOverflow](http://stackoverflow.com/questions/1120371/how-to-convert-ipv6-from-binary-for-storage-in-mysql).
 
+The author who shared the code is [Sander Marechal](http://stackoverflow.com/users/103202/sander-marechal). Content posted on Stackoverflow is under [CC BY-SA 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/).
 
 #### Requirements
 

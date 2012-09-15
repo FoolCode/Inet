@@ -2,9 +2,9 @@
 
 This [Composer](http://getcomposer.org) package contains a class two static functions to convert IPs from presentation to decimal. It works both for IPv6 and IPv4.
 
-This is especially useful to store 
+It's especially useful to store the IP in databases without having to resort to strings that may be much slower to match against.
 
-This package is based on an answer [this question on StackOverflow](http://stackoverflow.com/questions/1120371/how-to-convert-ipv6-from-binary-for-storage-in-mysql).
+Based on an [answer](http://stackoverflow.com/a/1271123/644504) to [this question on StackOverflow](http://stackoverflow.com/questions/1120371/how-to-convert-ipv6-from-binary-for-storage-in-mysql). Wish this solution were more popular, let's see if a package will help.
 
 
 #### Requirements
@@ -21,4 +21,4 @@ This package is based on an answer [this question on StackOverflow](http://stack
 
 #### Store it in MySQL
 
-Instead of using a `varchar`, create a `decimal (39,0)` column that will store the entire length of the number.
+Instead of using a `varchar` column, create a `decimal (39,0)` column that will store the entire length of the number. Enjoy better matching speed than you would have with `varchar`.

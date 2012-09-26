@@ -5,5 +5,5 @@
  */
 
 Autoloader::add_classes(array(
-	'Foolz\\Inet\\Inet' => __DIR__.'/classes/inet.php'
+	'Foolz\\Inet\\Inet' => __DIR__.'/classes/Foolz/Inet/Inet.php'
 ));

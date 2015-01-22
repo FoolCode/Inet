@@ -5,7 +5,16 @@
     "keywords": ["IP", "decimal", "presentation", "conversion", "ipv4", "ipv6"],
     "homepage": "http://www.foolz.us",
     "license": "CC-BY-SA-3.0",
-    "authors": [{"name": "Sander Marechal", "homepage": "http://stackoverflow.com/users/103202/sander-marechal"},{"name": "foolz", "email": "support@foolz.us"}],
+    "authors": [
+        {
+            "name": "Sander Marechal",
+            "homepage": "http://stackoverflow.com/users/103202/sander-marechal"
+        },
+        {
+            "name": "foolz",
+            "email": "support@foolz.us"
+        }
+    ],
     "support": {
         "email": "support@foolz.us", 
         "irc": "irc://irc.irchighway.net/fooldriver"
@@ -17,8 +26,8 @@
         "Math_BigInteger": "If you need to use this without Bcmath PECL extension (quite untested)"
     },
     "autoload": {
-        "psr-0": {
-            "Foolz\\Inet": "classes/"
+        "psr-4": {
+            "Foolz\\Inet\\": "src/"
         }
     }
 }
